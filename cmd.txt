@@ -1,0 +1,7 @@
+1. node 
+    - tab 
+    - (Ctrl + D) || (Ctrl + C) = .exit
+    - Ctrl + Shift + Enter = .execute
+    - 4+5 > _+1 ("_" lấy kết quả trước đó)
+    - String. + (tab x 2)
+
