@@ -1,12 +1,13 @@
-1. node 
-    - tab 
+1. node
+    - node name_file (chạy 1 file js bằng node)
+    - tab
     - (Ctrl + D) || (Ctrl + C) = .exit
     - Ctrl + Shift + Enter = .execute
     - 4+5 > _+1 ("_" lấy kết quả trước đó)
     - String. + (tab x 2)
 
+    - npm init
 2 npm
-    - npm init 
     - npm run start (config "start" trong "scripts")
     - npm install nodemon --save-dev
     - npm i nodemon --global

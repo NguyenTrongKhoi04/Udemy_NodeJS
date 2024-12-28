@@ -1,8 +1,8 @@
 const http = require('http');
-const url = require('url'); 
+const url = require('url');
 
 const server = http.createServer((req, res) =>{
-    const path = req.url; 
+    const path = req.url;
 
     switch (path){
         case '/overview':
@@ -15,7 +15,7 @@ const server = http.createServer((req, res) =>{
         );
         res.end('<h1>Page not found</h1>');
         break;
-    } 
+    }
     // res.end('hello server'); // ! it's "ERR_STREAM_WRITE_AFTER_END"
 });
 
