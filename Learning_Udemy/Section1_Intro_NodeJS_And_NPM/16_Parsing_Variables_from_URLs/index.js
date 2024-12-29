@@ -1,5 +1,5 @@
 const http = require('http');
-const url = require('url'); 
+const url = require('url');
 const fs = require('fs');
 
 function replaceTemplate(temp, product){
@@ -33,14 +33,14 @@ const server = http.createServer((req, res) =>{
         res.end(output);
         return;
     }
-    
+
     if (pathname === '/product') {
         const product = dataObj[query.id];
         const output = replaceTemplate(templateProduct, product);
         res.end(output);
         return;
     }
-    
+
     if(pathname === '/api'){
         res.writeHead(200, {'Content-type': 'application/json'});
         res.end(data);
